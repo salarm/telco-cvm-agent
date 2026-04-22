@@ -7,7 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "faker>=40.15.0",
     "numpy>=2.4.4",
-    "polars>=1.40.0",
+    "polars[rtcompat]>=1.40.0",
     "pydantic>=2.13.3",
 ]
 
